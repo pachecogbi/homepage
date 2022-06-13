@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root{
+	--ff-primary: "Nunito", Helvetica, Arial, sans-serif;
+
+	--clr-purple: #6D42DB;
+	--clr-blue: #5596F2;
+	--clr-pink-dark: #FE4DFF;
+	--clr-light-blue: #42DBCA;
+	--clr-white: #F5F5F5;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+body{
+	background-color: var(--clr-white);
+	font-family: var(--ff-primary);
+}
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+hr{
+	border: none;
+	background-color: var(--clr-purple);
+	height: 2px;
+	width: 140px;
+	margin: 20px auto;
+}
+
+p{
+	line-height: 21.82px;
+	padding: 0 10px;
+}
+
+.section__titulo{
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 10px;
+
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+.menu-bg{
+	background-color: var(--clr-light-blue);
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width:960px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.menu__logo{
+	margin: 10px;
+}
+
+.nav__list{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav__link{
+	padding: 20px 10px;
+}
+
+.intro{
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.quemsou{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.quemsou-c{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.quemsou-c__texto{
+	flex: 6 1 160px;
+}
+
+.quemsou-c__img{
+	flex: 1 1 360px;
+}
+
+.ondemoro{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.ondemoro-c{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.ondemoro-c__texto{
+	flex: 6 1 160px;
+}
+
+.ondemoro-c__img{
+	flex: 1 1 360px;
+}
+
+
+.ondeestudo{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.ondeestudo-c{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.ondeestudo-c__texto{
+	flex: 6 1 160px;
+}
+
+.ondeestudo-c__img{
+	flex: 1 1 360px;
+}
+
+.footer{
+	background: var(--clr-purple);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 55px calc((100% - 960px)/2);
+	align-items: center;
+}
+
+.footer__copyright, .footer__logo{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
